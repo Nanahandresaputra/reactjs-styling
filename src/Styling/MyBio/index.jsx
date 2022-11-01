@@ -15,7 +15,7 @@ class Navigation extends React.Component {
         {/* navbar */}
 
         <Navbar bg="success" variant="dark" fixed="top" expand="lg">
-          <Container fluid>
+          <Container>
             <Navbar.Brand href="#">Nana Handre Saputra</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
