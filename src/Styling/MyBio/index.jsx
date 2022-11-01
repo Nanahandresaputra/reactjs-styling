@@ -14,14 +14,17 @@ class Navigation extends React.Component {
       <div>
         {/* navbar */}
 
-        <Navbar bg="success" variant="dark" fixed="top">
-          <Container>
+        <Navbar bg="success" variant="dark" fixed="top" expand="lg">
+          <Container fluid>
             <Navbar.Brand href="#">Nana Handre Saputra</Navbar.Brand>
-            <Nav className="m-auto">
-              <Nav.Link href="#top">Home</Nav.Link>
-              <Nav.Link href="#skill">Skill</Nav.Link>
-              <Nav.Link href="#pricing">Contact me</Nav.Link>
-            </Nav>
+            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll">
+              <Nav className="m-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
+                <Nav.Link href="#top">Home</Nav.Link>
+                <Nav.Link href="#skill">Skill</Nav.Link>
+                <Nav.Link href="#">Contac Me</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
           </Container>
         </Navbar>
 
