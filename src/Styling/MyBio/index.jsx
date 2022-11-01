@@ -36,7 +36,7 @@ class Navigation extends React.Component {
           <div className="jumbotron">
             <h1 className="name text-center">Nana Handre Saputra</h1>
             <div className=" d-flex justify-content-center mt-5">
-              <button type="button" class="btn btn-success">
+              <button type="button" className="btn btn-success">
                 Profil LinkedIn
               </button>
             </div>
@@ -114,7 +114,7 @@ class Navigation extends React.Component {
             <label htmlFor="exampleFormControlTextarea1" class="form-label">
               Comment
             </label>
-            <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3" placeholder="comment here..."></textarea>
+            <textarea className="form-control mb-2" id="exampleFormControlTextarea1" rows="3" placeholder="comment here..."></textarea>
             <div className="d-flex justify-content-center">
               <Button className="btnn" variant="success" type="submit">
                 Submit
