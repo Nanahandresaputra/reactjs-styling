@@ -1,0 +1,44 @@
+.jumbotron {
+    height: 27rem;
+    width: 100%;
+    
+    background-size: cover;
+    background-image: url("./img.png");
+}
+.name {
+    padding-top: 22vh;
+    
+}
+.form {
+    height: 25vh;
+    width: 60%;
+    margin-top: 10vh;
+}
+.btnn {
+    width: 100%;
+}
+.bio {
+    margin-top: 10vh;
+}
+.footer {
+    margin-top: 20vh;
+}
+img {
+    width: 4rem;
+    height: 4rem;
+}
+.logoPng {
+    margin-top: 15vh;
+}
+
+
+@media only screen and (max-width: 900px){
+    img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0;
+    }
+    .footer {
+        margin-top: 25vh;
+    }
+}
