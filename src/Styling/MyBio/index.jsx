@@ -111,7 +111,7 @@ class Navigation extends React.Component {
             <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">
+            <label htmlFor="exampleFormControlTextarea1" class="form-label">
               Comment
             </label>
             <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3" placeholder="comment here..."></textarea>
